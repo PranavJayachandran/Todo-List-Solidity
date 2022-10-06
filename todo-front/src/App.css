@@ -1,0 +1,69 @@
+.App {
+  margin: -20px;
+  text-align: center;
+  color: white;
+  background: url("../src//assets/bg.jpg");
+  height: 100vh;
+}
+.your-wallet {
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 40px;
+}
+.tasks-header {
+  font-size: 50px;
+}
+.task-name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.task-complete {
+  background: transparent;
+  border: solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.task-complete:hover {
+  background: white;
+  color: black;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 10px;
+}
+.createnewtask {
+  margin-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.Create,
+.input-field {
+  margin: 10px;
+  font-size: 20px;
+}
+.submit {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border-color: white;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.submit:hover {
+  background: white;
+  color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
